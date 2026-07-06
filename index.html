@@ -30,8 +30,6 @@ body{
     margin:auto;
 }
 
-/* Navigation */
-
 nav{
     background:#111827;
     position:sticky;
@@ -59,11 +57,9 @@ nav a:hover{
     color:#38bdf8;
 }
 
-/* Header */
-
 header{
     text-align:center;
-    padding:70px 20px;
+    padding:45px 20px;
 }
 
 header h1{
@@ -74,7 +70,7 @@ header h1{
 header h2{
     color:#94a3b8;
     font-weight:normal;
-    margin-bottom:25px;
+    margin-bottom:20px;
 }
 
 .links a{
@@ -87,10 +83,8 @@ header h2{
     text-decoration:underline;
 }
 
-/* Sections */
-
 section{
-    padding:30px 0;
+    padding:25px 0;
 }
 
 .section-title{
@@ -99,8 +93,6 @@ section{
     border-bottom:2px solid #334155;
     padding-bottom:10px;
 }
-
-/* Cards */
 
 .card{
     background:#1e293b;
@@ -126,8 +118,6 @@ section{
     transform:translateY(-4px);
 }
 
-/* Skills */
-
 .skills{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
@@ -145,12 +135,6 @@ section{
     transform:translateY(-4px);
 }
 
-.skill-box h3{
-    margin-bottom:10px;
-}
-
-/* Resume Button */
-
 .resume-btn{
     display:inline-block;
     background:#38bdf8;
@@ -166,8 +150,6 @@ section{
     opacity:0.9;
 }
 
-/* Lists */
-
 ul{
     padding-left:20px;
 }
@@ -176,15 +158,11 @@ li{
     margin-bottom:8px;
 }
 
-/* Footer */
-
 footer{
     text-align:center;
     padding:40px;
     color:#94a3b8;
 }
-
-/* Mobile */
 
 @media(max-width:768px){
 
@@ -283,34 +261,42 @@ footer{
 
 </section>
 
-<section id="skills">
+<section id="projects">
 
     <div class="container">
 
-        <h2 class="section-title">Technical Skills</h2>
+        <h2 class="section-title">Projects & Labs</h2>
 
-        <div class="skills">
+        <div class="project">
+            <h3>Microsoft 365 Labs</h3>
+            <p>
+                Building hands-on projects focused on Microsoft 365 administration,
+                Microsoft Entra ID, Exchange Online, and SharePoint Online.
+            </p>
+        </div>
 
-            <div class="skill-box">
-                <h3>Microsoft Technologies</h3>
-                <p>Microsoft 365, Microsoft Entra ID, Exchange Online, SharePoint Online, Teams, Azure Fundamentals</p>
-            </div>
+        <div class="project">
+            <h3>PowerShell Labs</h3>
+            <p>
+                Creating PowerShell scripts for automation,
+                administration, troubleshooting, and reporting.
+            </p>
+        </div>
 
-            <div class="skill-box">
-                <h3>IT Support & Administration</h3>
-                <p>Incident Management, Access Management, Account Provisioning, Ticket Resolution, System Monitoring</p>
-            </div>
+        <div class="project">
+            <h3>Networking Labs</h3>
+            <p>
+                Documenting networking concepts, Packet Tracer labs,
+                troubleshooting exercises, and network monitoring.
+            </p>
+        </div>
 
-            <div class="skill-box">
-                <h3>Systems & Security</h3>
-                <p>Windows 10/11, Active Directory, PowerShell, Veeam, Event Viewer, Vulnerability Scanning</p>
-            </div>
-
-            <div class="skill-box">
-                <h3>Networking</h3>
-                <p>TCP/IP, DNS, DHCP, Network Troubleshooting, Cisco Packet Tracer, Nagios</p>
-            </div>
-
+        <div class="project">
+            <h3>Incident Management Labs</h3>
+            <p>
+                Showcasing troubleshooting workflows,
+                root-cause analysis, and support scenarios.
+            </p>
         </div>
 
     </div>
@@ -345,42 +331,34 @@ footer{
 
 </section>
 
-<section id="projects">
+<section id="skills">
 
     <div class="container">
 
-        <h2 class="section-title">Projects</h2>
+        <h2 class="section-title">Technical Skills</h2>
 
-        <div class="project">
-            <h3>Microsoft 365 Labs</h3>
-            <p>
-                Building hands-on projects focused on Microsoft 365 administration,
-                Microsoft Entra ID, Exchange Online, and SharePoint Online.
-            </p>
-        </div>
+        <div class="skills">
 
-        <div class="project">
-            <h3>Networking Labs</h3>
-            <p>
-                Documenting networking concepts, Packet Tracer labs,
-                troubleshooting exercises, and network monitoring.
-            </p>
-        </div>
+            <div class="skill-box">
+                <h3>Microsoft Technologies</h3>
+                <p>Microsoft 365, Microsoft Entra ID, Exchange Online, SharePoint Online, Teams, Azure Fundamentals</p>
+            </div>
 
-        <div class="project">
-            <h3>PowerShell Labs</h3>
-            <p>
-                Creating PowerShell scripts for automation,
-                administration, troubleshooting, and reporting.
-            </p>
-        </div>
+            <div class="skill-box">
+                <h3>IT Support & Administration</h3>
+                <p>Incident Management, Access Management, Account Provisioning, Ticket Resolution, System Monitoring</p>
+            </div>
 
-        <div class="project">
-            <h3>Incident Management Labs</h3>
-            <p>
-                Showcasing troubleshooting workflows,
-                root-cause analysis, and support scenarios.
-            </p>
+            <div class="skill-box">
+                <h3>Systems & Security</h3>
+                <p>Windows 10/11, Active Directory, PowerShell, Veeam, Event Viewer, Vulnerability Scanning</p>
+            </div>
+
+            <div class="skill-box">
+                <h3>Networking</h3>
+                <p>TCP/IP, DNS, DHCP, Network Troubleshooting, Cisco Packet Tracer, Nagios</p>
+            </div>
+
         </div>
 
     </div>
@@ -408,9 +386,7 @@ footer{
 </section>
 
 <footer>
-
     <p>© 2026 Afeez Lawal</p>
-
 </footer>
 
 </body>
